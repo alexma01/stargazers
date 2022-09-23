@@ -1,0 +1,641 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StargazersList should match the snapshot with loading false and empty stargazers list 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignContent": "center",
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text>
+      NO RESULTS
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`StargazersList should match the snapshot with loading false and stargazers list 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    ItemSeparatorComponent={[Function]}
+    contentContainerStyle={
+      {
+        "marginHorizontal": 10,
+      }
+    }
+    data={
+      [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/18049606?v=4",
+          "username": "test1",
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/18049606?v=4",
+          "username": "test2",
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/18049606?v=4",
+          "username": "test3",
+        },
+        {
+          "avatar": "",
+          "username": "test4",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={0.1}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={[]}
+    style={
+      {
+        "flex": 1,
+      }
+    }
+    testID="StargazersList"
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "white",
+              "borderRadius": 10,
+              "elevation": 5,
+              "flexDirection": "row",
+              "marginTop": 5,
+              "padding": "1%",
+              "shadowColor": "#000",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 3.84,
+              "width": "100%",
+            }
+          }
+        >
+          <Image
+            source={
+              {
+                "uri": "https://avatars.githubusercontent.com/u/18049606?v=4",
+              }
+            }
+            style={
+              {
+                "height": 70,
+                "width": 70,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "marginLeft": 10,
+              }
+            }
+          >
+            test1
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "height": 10,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "white",
+              "borderRadius": 10,
+              "elevation": 5,
+              "flexDirection": "row",
+              "marginTop": 5,
+              "padding": "1%",
+              "shadowColor": "#000",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 3.84,
+              "width": "100%",
+            }
+          }
+        >
+          <Image
+            source={
+              {
+                "uri": "https://avatars.githubusercontent.com/u/18049606?v=4",
+              }
+            }
+            style={
+              {
+                "height": 70,
+                "width": 70,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "marginLeft": 10,
+              }
+            }
+          >
+            test2
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "height": 10,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "white",
+              "borderRadius": 10,
+              "elevation": 5,
+              "flexDirection": "row",
+              "marginTop": 5,
+              "padding": "1%",
+              "shadowColor": "#000",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 3.84,
+              "width": "100%",
+            }
+          }
+        >
+          <Image
+            source={
+              {
+                "uri": "https://avatars.githubusercontent.com/u/18049606?v=4",
+              }
+            }
+            style={
+              {
+                "height": 70,
+                "width": 70,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "marginLeft": 10,
+              }
+            }
+          >
+            test3
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "height": 10,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "white",
+              "borderRadius": 10,
+              "elevation": 5,
+              "flexDirection": "row",
+              "marginTop": 5,
+              "padding": "1%",
+              "shadowColor": "#000",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 3.84,
+              "width": "100%",
+            }
+          }
+        >
+          <Image
+            source={
+              {
+                "uri": "",
+              }
+            }
+            style={
+              {
+                "height": 70,
+                "width": 70,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "marginLeft": 10,
+              }
+            }
+          >
+            test4
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`StargazersList should match the snapshot with loading true and empty stargazers list 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignContent": "center",
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text>
+      NO RESULTS
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "alignContent": "center",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "textAlignVertical": "center",
+      }
+    }
+  >
+    <ActivityIndicator
+      size="large"
+    />
+  </View>
+</View>
+`;
+
+exports[`StargazersList should match the snapshot with loading true and stargazers list 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    ItemSeparatorComponent={[Function]}
+    contentContainerStyle={
+      {
+        "marginHorizontal": 10,
+      }
+    }
+    data={
+      [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/18049606?v=4",
+          "username": "test1",
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/18049606?v=4",
+          "username": "test2",
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/18049606?v=4",
+          "username": "test3",
+        },
+        {
+          "avatar": "",
+          "username": "test4",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={0.1}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={[]}
+    style={
+      {
+        "flex": 1,
+      }
+    }
+    testID="StargazersList"
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "white",
+              "borderRadius": 10,
+              "elevation": 5,
+              "flexDirection": "row",
+              "marginTop": 5,
+              "padding": "1%",
+              "shadowColor": "#000",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 3.84,
+              "width": "100%",
+            }
+          }
+        >
+          <Image
+            source={
+              {
+                "uri": "https://avatars.githubusercontent.com/u/18049606?v=4",
+              }
+            }
+            style={
+              {
+                "height": 70,
+                "width": 70,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "marginLeft": 10,
+              }
+            }
+          >
+            test1
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "height": 10,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "white",
+              "borderRadius": 10,
+              "elevation": 5,
+              "flexDirection": "row",
+              "marginTop": 5,
+              "padding": "1%",
+              "shadowColor": "#000",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 3.84,
+              "width": "100%",
+            }
+          }
+        >
+          <Image
+            source={
+              {
+                "uri": "https://avatars.githubusercontent.com/u/18049606?v=4",
+              }
+            }
+            style={
+              {
+                "height": 70,
+                "width": 70,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "marginLeft": 10,
+              }
+            }
+          >
+            test2
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "height": 10,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "white",
+              "borderRadius": 10,
+              "elevation": 5,
+              "flexDirection": "row",
+              "marginTop": 5,
+              "padding": "1%",
+              "shadowColor": "#000",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 3.84,
+              "width": "100%",
+            }
+          }
+        >
+          <Image
+            source={
+              {
+                "uri": "https://avatars.githubusercontent.com/u/18049606?v=4",
+              }
+            }
+            style={
+              {
+                "height": 70,
+                "width": 70,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "marginLeft": 10,
+              }
+            }
+          >
+            test3
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "height": 10,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "white",
+              "borderRadius": 10,
+              "elevation": 5,
+              "flexDirection": "row",
+              "marginTop": 5,
+              "padding": "1%",
+              "shadowColor": "#000",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 3.84,
+              "width": "100%",
+            }
+          }
+        >
+          <Image
+            source={
+              {
+                "uri": "",
+              }
+            }
+            style={
+              {
+                "height": 70,
+                "width": 70,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "marginLeft": 10,
+              }
+            }
+          >
+            test4
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      {
+        "alignContent": "center",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "textAlignVertical": "center",
+      }
+    }
+  >
+    <ActivityIndicator
+      size="large"
+    />
+  </View>
+</View>
+`;

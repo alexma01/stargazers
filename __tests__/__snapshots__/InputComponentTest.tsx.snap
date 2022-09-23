@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputComponent should match the snapshot with placeholder (placeholderTest) and text (test) 1`] = `
+<View>
+  <Text
+    style={
+      {
+        "color": "black",
+        "fontSize": 15,
+        "fontWeight": "bold",
+        "marginLeft": 15,
+      }
+    }
+  >
+    placeholderTest
+  </Text>
+  <TextInput
+    autoCapitalize="none"
+    placeholder="placeholderTest"
+    style={
+      {
+        "backgroundColor": "white",
+        "borderBottomWidth": 2,
+        "borderColor": "gray",
+        "borderRadius": 10,
+        "borderWidth": 1,
+        "color": "gray",
+        "height": 40,
+        "margin": 15,
+        "paddingLeft": 15,
+      }
+    }
+    value="test"
+  />
+</View>
+`;
+
+exports[`InputComponent should match the snapshot with text (test) 1`] = `
+<View>
+  <Text
+    style={
+      {
+        "color": "black",
+        "fontSize": 15,
+        "fontWeight": "bold",
+        "marginLeft": 15,
+      }
+    }
+  />
+  <TextInput
+    autoCapitalize="none"
+    style={
+      {
+        "backgroundColor": "white",
+        "borderBottomWidth": 2,
+        "borderColor": "gray",
+        "borderRadius": 10,
+        "borderWidth": 1,
+        "color": "gray",
+        "height": 40,
+        "margin": 15,
+        "paddingLeft": 15,
+      }
+    }
+    value="test"
+  />
+</View>
+`;

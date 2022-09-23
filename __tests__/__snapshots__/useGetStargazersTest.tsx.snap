@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useGetStargazers should match the snapshot 1`] = `
+[
+  {
+    "avatar": "https://avatars.githubusercontent.com/u/18049606?v=4",
+    "username": "test1",
+  },
+  {
+    "avatar": "https://avatars.githubusercontent.com/u/18049606?v=4",
+    "username": "test2",
+  },
+  {
+    "avatar": "https://avatars.githubusercontent.com/u/18049606?v=4",
+    "username": "test3",
+  },
+  {
+    "avatar": "",
+    "username": "test4",
+  },
+]
+`;
+
+exports[`useGetStargazers should return empty list 1`] = `[]`;
