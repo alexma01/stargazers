@@ -10,6 +10,15 @@ const useGetStargazers = () => {
   const [loading, setloading] = useState(false);
   const [error, seterror] = useState('');
 
+  const updatePrevProps = useCallback(
+    (pageR: number, ownerR: string, repositoryR: string) => {
+      prevPage.current = pageR;
+      prevOwner.current = ownerR;
+      prevRepository.current = repositoryR;
+    },
+    [],
+  );
+
   const fetchData = useCallback(
     async (
       ownerR: string,
@@ -31,14 +40,10 @@ const useGetStargazers = () => {
         prevPage.current !== pageR
       ) {
         setdata(stargazersPrev => [...stargazersPrev, ...stargazers]);
-        prevPage.current = pageR;
-        prevOwner.current = ownerR;
-        prevRepository.current = repositoryR;
+        updatePrevProps(pageR, ownerR, repositoryR);
       } else {
         setdata(stargazers);
-        prevPage.current = pageR;
-        prevOwner.current = ownerR;
-        prevRepository.current = repositoryR;
+        updatePrevProps(pageR, ownerR, repositoryR);
       }
 
       if (stargazers.length === 0) {
@@ -48,7 +53,7 @@ const useGetStargazers = () => {
 
       setloading(false);
     },
-    [],
+    [updatePrevProps],
   );
 
   const onFetch = useCallback(
