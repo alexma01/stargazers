@@ -29,4 +29,4 @@ yarn detox:android
 
 ## Installation
 
-To avoid getting the "rate limit" error from the server, you can set your own github token between the environment variables (`.env`)
+To avoid getting the "rate limit" error from the server, you can set your own github token in the environment variables (`.env`)
