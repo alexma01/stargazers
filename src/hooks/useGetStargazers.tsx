@@ -24,10 +24,7 @@ const useGetStargazers = () => {
         pageR,
         per_pageR,
       );
-      console.log('FETCH', ownerR);
-      console.log('FETCH', repositoryR);
-      console.log('FETCH', pageR);
-      console.log('FETCH', per_pageR);
+
       if (
         prevRepository.current === repositoryR &&
         prevOwner.current === ownerR &&
